@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,10 @@
 
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/d947ee2aed.js" crossorigin="anonymous"></script>
+
+    <!-- daisyUI cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
 
     <!-- tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,6 +31,36 @@
       </script>
 </head>
 <body>
-    
+    <header class="max-w-screen-2xl mx-auto px-16 lg:px-28 ">
+      <div class="md:flex pt-10 mb-20">
+        <div class="gap-4 md:gap-6">
+          <h1 class="font-bold text-5xl md:text-7xl md:w-5/12">It's good tea time at The Tea House</h1>
+          <p class="text-gray-500 w-3/4 my-8">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="text-white btn btn-error font-bold bg-gradient-to-r from-orange-500 to-red-500">explore more <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+        <!-- img content  -->
+         <div class="relative">
+           <div>
+            <img src="images/banner.png" alt="" class="mt-8">
+           </div>
+           <div class="absolute top-2/3 flex items-center gap-4 border-white bg-white shadow-lg p-2 md:p-3 rounded-lg">
+              <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+              <div >
+                <h1 class="font-bold text-2xl">
+                  5.00
+                </h1>
+                <p class="text-gray-500 font-bold">Trust Pilot Ratings</p>
+               </div>
+           </div>
+           
+         </div>
+      </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
